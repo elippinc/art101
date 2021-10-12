@@ -10,12 +10,15 @@ p{
   text-indent: 20px;
   margin-left: 10px;
 }
+img{
+  max-width: 100%;
+  height: auto;
+}
 #content {
   /*look up the hex code of the color you want to change the bg to*/
   background-color: #B0A6FF;
   width: 500px;
   min-height: 300px;
-  max-width: 300px;
   padding: 10px;
   margin: 10px;
   border: solid 1px #444444;
