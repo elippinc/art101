@@ -1,5 +1,5 @@
 h1 {
-  color: Red;
+  color: White;
   font-size: 200%;
 }
 p{
@@ -13,6 +13,7 @@ p{
   background-color: #B0A6FF;
   width: 500px;
   min-height: 300px;
+  max-width: 300px;
   padding: 10px;
   margin: 10px;
   border: solid 1px #444444;
