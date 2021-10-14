@@ -4,3 +4,7 @@
 // @file   This files defines the MyClass class.
 // @author Evie Lippincott.
 // @since  10.13.21
+  //Display the Rock Paper Scissor options
+  //Accept user input
+  //Choose random move
+  //Test of win, draw, or lose condition
