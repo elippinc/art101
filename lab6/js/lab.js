@@ -13,7 +13,7 @@
   var myMainRide = {
    make : "Nissan",
    model : "180sx",
-   color : "Purprle",
+   color : "Purple",
    year : 1992,
    age: function() {
         return 2021 - age;
