@@ -1,28 +1,22 @@
 /**
  * Author:    Evelyn
- * Created:   10/20/2021
+ * Created:   10/25/2021
  *
  * (c) Copyright by Evie
 
  **/
-
-  const myTransport = ['car', 'bus', 'walking'];
-  console.log(myTransport);
-
-
-  var myMainRide = {
-   make : "Nissan",
-   model : "180sx",
-   color : "Purple",
-   year : 1992,
-   age: function() {
-        return 2021 - age;
-   }
+function sortUserName() {
+    var userName = window.prompt("Put your name!!"");
+    console.log("userName =", userName);
+    var nameArray = userName.split('');
+    console.log("nameArray =", nameArray);
+    var nameArraySort = nameArray.sort();
+    console.log("nameArraySort =", nameArraySort;
+    var nameSorted = nameArraySort.join('');
+    console.log("nameSOrted =", nameSorted);
+    return nameSorted;
 }
 
-
 //Output
- document.writeln("Getting around: " + myTransport + "</br>");
-
- document.writeln("My Main Ride: <pre>",
-    JSON.stringify(myMainRide, null, '\t'), "</pre>");
+document.writeln("Here's your name... ",
+    sortUserName(), "</br>");
