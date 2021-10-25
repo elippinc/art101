@@ -6,12 +6,12 @@
 
  **/
 function sortUserName() {
-    var userName = window.prompt("Put your name!!"");
+    var userName = window.prompt("Put your name!!");
     console.log("userName =", userName);
     var nameArray = userName.split('');
     console.log("nameArray =", nameArray);
     var nameArraySort = nameArray.sort();
-    console.log("nameArraySort =", nameArraySort;
+    console.log("nameArraySort =", nameArraySort);
     var nameSorted = nameArraySort.join('');
     console.log("nameSOrted =", nameSorted);
     return nameSorted;
