@@ -3,8 +3,8 @@
  * Created:   10/27/2021
  *
  * (c) Copyright by Evie
-
  **/
+ 
   function isOdd(x) {
    if (x === 0) return false;
 
@@ -18,7 +18,7 @@
 
    var result = array.map(isOdd);
 
-   console.log("array go crazy", result);
+   console.log("array go crazy" , result);
 
    var result = array.map(function(x){
      return x ** 0.7;
