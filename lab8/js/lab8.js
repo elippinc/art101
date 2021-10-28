@@ -5,23 +5,24 @@
  * (c) Copyright by Evie
 
  **/
- function divide(x,y){
-   return x / y;
+  function isOdd(x) {
+   if (x === 0) return false;
+
+   return (x & -x) === 1;
  }
 
- // test function
- console.log("What is 100/8? ", divide(100, 8));
- console.log("What is 7386/2? ", divide(7386, 2));
+ array = [12,445,32,33337,28];
 
-array = [100, 8, 7386, 2]
-console.log("My array", array);
+   console.log("My array",  array);
 
-var result = array.map(divide);
 
-conosle.log("Divide of array:", result);
+   var result = array.map(isOdd);
 
-var result = array.map(function(x){
-  return x ** 0.5;
-})
+   console.log("array go crazy", result);
 
-console.log("Squaretoot of array:", results);
+   var result = array.map(function(x)){
+     return x ** 0.7;
+
+   })
+
+   console.log("the the 0.7 power", result);
