@@ -20,7 +20,7 @@
 
    console.log("array go crazy", result);
 
-   var result = array.map(function(x)){
+   var result = array.map(function(x){
      return x ** 0.7;
 
    })
