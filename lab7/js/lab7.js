@@ -18,5 +18,5 @@ function sortUserName() {
 }
 
 //Output
-document.writeln("Here's your name... ",
+document.writeln("Here's your name... sorted to be better! : ",
     sortUserName(), "</br>");
