@@ -20,6 +20,6 @@
 
  new1El.style.color = "blue";
  new1El.style.fontSize = "20px";
- new1El.style.color = "white";
+ new1El.style.color = "pink";
  new1El.style.fontSize = "20px";
- outputEl.style.backgroundColor = "yellow";
+ outputEl.style.backgroundColor = "";
