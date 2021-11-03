@@ -4,11 +4,17 @@
  *
  * (c) Copyright by Evie
  **/
- var outputEl = document.getElementbyId("output");
+
+ var outputEl = document.getElementById("content");
+
  var new1El = document.createElement("p");
+
  new1El.innerHTML = "Hello there!";
+
  var new2El = document.createElement("p");
+
  new2El.innerHTML = "Oh, hi I guess.";
+
  outputEl.appendChild(new1El);
  outputEl.appendChild(new2El);
 
