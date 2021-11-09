@@ -18,9 +18,3 @@ img{
 #content {
   /*look up the hex code of the color you want to change the bg to*/
   background-color: #b0a6ff;
-  width: 1000px;
-  min-height: 200px;
-  padding: 10px;
-  margin: 10px;
-  border: solid 1px #b0a6ff;
-  font-size: 20px;
