@@ -8,8 +8,8 @@
  // Return Water, Earth, Fire, and Air
  // depending on length mod 4
  function sortingHat(str) {
-  var = str.length;
-  mod = len % 4;
+  var length = str.length;
+  var mod = len % 4;
   if (mod == 0) {
     return "Water"
   }
