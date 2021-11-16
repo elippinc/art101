@@ -14,7 +14,7 @@
     return "Water"
   }
   else if (mod == 1) {
-    retrun "Earth"
+    return "Earth"
   }
   else if (mod == 2) {
     return "Fire"
