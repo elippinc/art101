@@ -25,7 +25,7 @@
  }
  var myButton = document.getElementById("button");
  myButton.addEventListener("click", function() {
-   var name = document.getElementbyId("input").value;
+   var name = document.getElementById("input").value;
    var house = sortingHat(name);
    newText = "<p>You would bend: " + house + "</p>";
    document.getElementById("output").innerHTML = newText;
