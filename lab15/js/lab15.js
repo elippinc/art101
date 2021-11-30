@@ -1,3 +1,9 @@
+/**
+ * Author:    Evelyn
+ * Created:   11/29/2021
+ *
+ * (c) Copyright by Evie
+ **/
  //var myUrl = "http://numbersapo.com/42/math";
  //var myUrl = "https://api.kanye.rest/";
  var myUrl = "http://numbersapi.com/11/29/date";
