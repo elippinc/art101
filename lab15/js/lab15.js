@@ -1,4 +1,4 @@
-
+ //var myUrl = "http://numbersapo.com/42/math";
  //var myUrl = "https://api.kanye.rest/";
  var myUrl = "http://numbersapi.com/11/29/date";
 
@@ -9,7 +9,7 @@
    // Using the core $.ajax() method
    $.ajax({
       // API endpoint
-      url: myUrl
+      url: myUrl,
       // Any data to send
       // data: { id: 123},
       // POSR or GET request
