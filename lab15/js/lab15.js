@@ -13,7 +13,7 @@
       // Any data to send
       // data: { id: 123},
       // POSR or GET request
-      type: "GET",
+      dataType: "GET",
       // data type we expect back
       // dataType : "text",
    })
